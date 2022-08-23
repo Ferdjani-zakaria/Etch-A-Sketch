@@ -1,0 +1,21 @@
+:root{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    min-height:100vh ;
+}
+
+.canvas{
+    background-color: white;
+    display: grid;
+    width: min(80%, 35rem);
+    margin-inline: auto;
+    margin-block: 20px;
+    min-height: 80vh; 
+    border: 2px solid cadetblue;
+    border-radius: 0.5rem;
+}
