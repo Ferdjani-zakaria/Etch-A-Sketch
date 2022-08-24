@@ -4,8 +4,10 @@ const pixelRange = document.querySelector('.numPixel');
 
 const div = document.createElement('div');
 
+// window.onload = resetCanvas(16)
+
 const updateTextCanvasSize =(val)=> {
-    document.querySelector('#canvasSize').value=val; 
+    document.querySelector('#canvasSize').value=`${val}x${val}`; 
 }
 
 
