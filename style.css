@@ -1,6 +1,10 @@
 :root{
     box-sizing: border-box;
 }
+div{
+    /* This background color was added to make the fct changeColor work */
+    background-color: rgb(255, 255, 255);
+}
 
 body{
     margin: 0;
@@ -23,7 +27,16 @@ body{
     border: 2px solid cadetblue;
     border-radius: 0.5rem;
     grid-template-columns: repeat(16, 1fr);
+    cursor: pointer;
     
+}
+
+.controlButtons{
+    background-color: inherit;
+}
+
+.controlButtons button{
+    margin-left: 0.5rem;
 }
 
 .btn{
@@ -54,4 +67,12 @@ body{
     font-size: 1.5rem;
     font-weight: 700;
     color: hsl(207, 71%, 55%);
+}
+
+.canvasSize:focus{
+    outline: none;
+}
+
+.bgBlue{
+    background-color: blue;
 }
