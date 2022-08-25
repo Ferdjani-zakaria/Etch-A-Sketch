@@ -11,13 +11,16 @@
     <div class="canvas">
     
     </div>
-        <input type="text" id="canvasSize" class="canvasSize" name="canvasSize" value="16x16">
+        <input type="text" id="canvasSize" class="canvasSize" name="canvasSize" value="16x16" readonly>
     <form>
         <label for="numPixel">Size of the canvas: </label>
-        <input type="range" id="numPixel" class="numPixel" name="numPixel" value="16" min="1" max="99">
+        <input type="range" id="numPixel" class="numPixel" name="numPixel" value="16" min="1" max="30">
     </form>
-        
+    <div class="controlButtons">
+        <button class="btn" id="randomRgb">Random RGB</button>
         <button class="btn" id="reset">Reset</button>
+    </div>
+        
     <script src="app.js"></script>
 </body>
 </html>
